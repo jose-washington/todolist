@@ -24,7 +24,7 @@ function TodoForm(props){
     return(
         <form className='formulario'>
             <input onChange={handleChange} type='text' value={text} placeholder='Adicione uma tarefa'></input>
-            <button  onClick={addItem}>+</button>
+            <button  onClick={addItem}><img src='./assets/add-button.png'></img></button>
         </form>
     )
 }

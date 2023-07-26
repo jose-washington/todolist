@@ -7,12 +7,15 @@
     margin: auto;
     max-width: 600px;
     text-align: center;
+    margin-top: 25px;
 }
 
 /*formulario*/
 .formulario{
+    margin: 15px 0;
     width: 100%;
-    
+    display: flex;
+    justify-content: center;
 }
 
 .formulario input[type=text]{
@@ -22,14 +25,17 @@
 }
 
 .formulario button{
-    width: 35px;
-    height: 30px;
-    background-color: rgb(3, 31, 246);
-    border: 1px solid blue;
-    color: white;
-    font-size: 15px;
+    width: 32px;
+    height: 31px;
+    border-radius: 6px;
+    border: 0;
+    background-color: transparent;
 }
 
+.formulario button img{
+    width: 32px;
+    height: 31px;
+}
 .done{
     text-decoration: line-through;
     color: gray;
